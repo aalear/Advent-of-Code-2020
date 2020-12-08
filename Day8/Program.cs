@@ -57,8 +57,6 @@ namespace Day8
             return int.MinValue; 
         }
 
-        static void CopyArray(string[] src, string[] dest) => Array.Copy(src, dest, src.Length);
-
         static bool TryDetectLoop(string[] input, out int accumulator)
         {
             accumulator = 0;
